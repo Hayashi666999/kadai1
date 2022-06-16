@@ -72,3 +72,60 @@ font-size:18px;
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width:768px) {
+.blog{
+  display: block;
+}
+.blog .blog-image1{
+  width: 100%;
+  margin: 0 auto;
+}
+.blog .blog-image2{
+  width: 100%;
+  margin: 0 auto;
+}
+.blog .blog-image3{
+  width: 100%;
+  margin: 0 auto;
+}
+.steps{
+  margin-right: 20%;
+  position: relative;
+  padding: 10px;
+}
+main {
+  width: 100%;
+}
+.steps{
+  width: 90%;
+  margin-top:20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  position: relative;
+  padding: 10px;
+}
+.blog-image1{
+  width: 90%;
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.blog-image2{
+  width: 90%;
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.blog-image3{
+  width: 90%;
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+}
